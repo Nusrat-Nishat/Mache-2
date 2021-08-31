@@ -1,0 +1,566 @@
+/* Author
+
+Name: Nusrat Nishat;
+Email : nusratnishat565@gmail.com;
+
+*/
+
+
+/*
+
+=====Index=====
+
+1.header
+2.macbook 
+3.Service 
+4.Quote 
+5.Prices 
+6.info  
+7.join part
+8.news 
+9.addition
+10.Download
+11.foot
+
+*/
+
+
+/*Global CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Theme CSS*/
+
+body{
+
+}
+
+
+/*head start*/
+
+header {
+    padding: 0px 0 50px;
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-color: #f3f3f3;
+}
+
+nav i {
+	color: black!important;
+}
+
+
+.nav-head {
+   padding: 25px 0px;
+}
+
+.nav-item {
+	margin: 0px 5px;
+}
+
+.nav-dot{
+	 margin: -12px 3px;
+     font-size: 43px;
+}
+
+.nav-link {
+	color: white!important;
+
+}
+
+.nav-link.js-scroll-trigger.active {
+	color: #dd4b2b!important;
+	border-radius: 25px;
+	padding: 8px 25px;
+}
+
+.fa.fa-bars{
+	color: white!important;
+}
+
+.Head{
+	text-align: center;
+	color: #717171;
+	margin: 135px 0px;
+}
+
+.line{
+	 border-bottom: 4px solid #ed135a;
+    width: 20%;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.btn{
+    color: white;
+  border: 1px solid #ed135a;
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 8px 34px;
+  margin: 57px;
+  background-color: #ed135a;
+}
+
+/*head end*/
+
+/*macbook start*/
+
+section{
+
+}
+
+.macbook{
+	background-color: #f3f3f3;
+}
+
+.macbook h3{
+   font-style: italic!important;
+    font-weight: 400px!important;
+}
+
+.macbook p{
+    font-style: italic!important;
+    font-weight: 400px!important;
+}
+
+.fa.fa-play-circle{
+	color:#ed135a ;
+	background-color: transparent;
+}
+
+.parent{
+	position: relative;
+}
+
+.kid{
+	position: absolute;
+    width: 162%;
+}
+
+/*macbook end*/
+
+
+
+/*Service start*/
+
+section{
+
+}
+
+.service{
+  text-align: center;
+  color: black;
+  
+}
+
+.service h3{
+  font-weight: 400px!important;
+  font-style: italic!important;
+}
+
+.icon{
+    margin: 120px 0px;
+}
+
+
+/*Service end*/
+
+
+
+/*Quote part start*/
+
+.Quote{
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.Quote p{
+   color: white;
+   font-weight: 400px!important;
+   font-style: italic!important;
+   padding: 45px;
+
+}
+
+/*Quote part end*/
+
+
+/*Prices part start*/
+
+.prices{
+
+  text-align: center;
+  background-color: #f3f3f3;
+  font-style: italic!important;
+}
+
+.box{
+  background-color: white;
+  padding: 0px;
+  position: relative;
+  max-width: 22%!important;
+  margin: 70px 17px;
+  
+}
+
+.box-head{
+  background-color: #595959;
+  color: white;
+  height: 130px;
+  padding: 15px 0px;
+
+}
+
+.box-head:hover{
+   background-color: #ed145b;
+  color: white;
+  transition: 0.4s, ease;
+}
+
+
+.box-head h6{
+  margin-bottom: 0px;
+}
+
+.box-body{
+
+}
+
+.box-body p{
+    font-size: 18px;
+    padding: 60px 0px;
+}
+
+
+.box-btn{
+  position: absolute;
+    background-color: #f3f3f3;
+    font-size: 20px;
+    padding: 6px 29px;
+    border: 1px solid #f3f3f3;
+    border-radius: 45px;
+    top: 30%;
+    left: 23%;
+}
+
+.boxbtn{
+       position: absolute;
+    background-color: #ed135b;
+    font-size: 15px;
+    padding: 9px 45px;
+    color: white!important;
+    border: 1px solid #f3f3f3;
+    border-radius: 45px;
+    left: 20%;
+    top: 85%;
+}
+    
+/*Prices part end*/
+
+
+/* info start*/
+
+.info{
+   font-style: italic!important; 
+}
+
+.info img{
+    margin: 12px 0px;
+}
+
+
+.info h5{
+   color: #ed135b;
+   font-size: 25px;
+    padding: 6px;
+
+}
+
+.info p{
+    font-size: 18px;
+    padding: 6px;
+
+}
+
+
+/* info end*/
+
+
+
+/*join part start*/
+
+.join{
+   background-color: #ed135b;
+   color: white;
+
+}
+
+.join h4{
+    font-size: 45px;
+}
+
+button{
+ 
+}
+
+.btn-join{
+   background-color: white;
+    color: #ed135b;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 13px 31px;
+}
+
+.btn-join:hover{
+    background-color: maroon;
+    color: #fff;
+    transition: 0.4s ease;
+}
+/*join part end*/
+
+
+/*news start*/
+
+.news{
+  text-align: center;
+   font-style: italic!important; 
+}
+
+.card{
+    text-align: left;
+    margin: 12px;
+    background-color: #a7a0a5;
+}
+.card-title{
+    font-size: 20px;
+}
+
+.card-text{
+   font-size: 13px;
+}
+
+/*news end*/
+
+
+/*addition part start*/
+
+.addition{
+  text-align: center;
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  color: white;
+  font-style: italic!important;
+}
+
+/*addition part end*/
+
+
+
+
+/*Download part start*/
+
+.download{
+  font-style: italic!important;
+  background-color: #f3f3f3;
+}
+
+.download h4{
+   margin: 30px 0px;
+}
+
+.download p{ 
+    margin: 25px 0px;
+ }
+
+
+.parent{
+   position: relative;
+}
+
+.child{
+ position: absolute;
+ top: 10%;
+}
+
+.details{
+    padding: 60px;
+}
+
+.btn-cstm{
+    background-color: #ed135b;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    border: 2px solid #ed135b;
+    border-radius: 45px;
+}
+
+
+.btn-cstm:hover{
+     background-color: maroon;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+/*Download part end*/
+
+
+
+/*footer part start*/
+
+footer{
+  background-color: #2b2b2b;
+  color: white;
+}
+
+.foot{
+    font-size: 12px;
+    padding: 25px
+}
+
+/*footer part end*/
+
+
+
+/*media query*/
+
+
+
+/*Mobile device start*/
+
+@media only screen and (min-width: 360px){
+
+
+
+
+}
+
+
+/*Mobile device end*/
+
+
+/*small device */
+
+@media (min-width:  360px) and (max-width:602px){ 
+
+    section {
+    padding: 45px 0;
+}
+
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.kid {
+    width: 102%;
+    left: -1%;
+ }   
+
+.child {
+     left: -3%;
+    width: 106%;
+
+}
+
+.box {
+    max-width: 40%!important;
+    margin: 25px 15px;
+}
+
+.box-btn {
+    padding: 5px 22px;
+    top: 25%;
+    left: 4%;
+}
+
+.boxbtn {
+    font-size: 9px;
+    padding: 12px 34px;
+    left: 8%;
+    top: 85%;
+}
+
+.details {
+    padding: 16px;
+    margin-top: 230px;
+ }   
+
+.macbook {
+    height: 725px;
+}
+
+.Head {
+    margin: 30px 0px;
+}
+
+.h1, h1 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 15px;
+}
+
+.h3, h3 {
+    font-size: 1.5rem;
+}
+
+.icon {
+    margin: 38px 0px;
+}
+
+.info img {
+    width: 10%;
+}
+
+.info h5 {
+    font-size: 20px;
+}
+
+.info p {
+    font-size: 10px;
+}
+
+.join h4 {
+    font-size: 15px;
+}
+
+.btn-join {
+    padding: 0px 31px;
+    margin-left: 65px;
+}
+
+.btn-cstm {
+    font-size: 15px;
+    padding: 10px;
+}
+
+}
+
+/*small device */
+
+/*Medium device start*/
+ 
+
+@media (min-width: 602.01px) and (max-width:728px){ 
+
+}
+
+	
+/*Medium device end*/
+
+
+/*large device start*/
+
+@media (min-width: 728.01px){
+
+}
+
+/*large device end
